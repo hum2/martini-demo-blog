@@ -1,0 +1,35 @@
+<div class="jubotron">
+    <article class="board">
+        {{range .Articles}}
+        <section>
+            <h1><a href="./{{.Id}}/">{{.Subject}}</a></h1>
+            <div class="meta">
+                <span>作成日：{{.CreatedAt}}</span>
+            </div>
+            <p class="content">{{.Body}}</p>
+        </section>
+        {{end}}
+    </article>
+</div>
+<style>
+    .board {
+        width: 800px;
+        margin: 0 auto 0;
+    }
+    .board section {
+        border: 1px solid #333; margin: 10px;
+        border-radius: 30px;
+        padding: 10px 100px;
+        background-color: #eee;
+    }
+    .board section img {
+        border-radius: 50px;
+    }
+
+    .board section .meta {
+        text-align: right;
+    }
+    .board section .content {
+        margin: 10px 0px;
+    }
+</style>

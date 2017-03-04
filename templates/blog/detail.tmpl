@@ -1,0 +1,37 @@
+<div class="jubotron">
+    <article class="board">
+        <section>
+            <h1>
+                {{.Article.Subject}}
+                [<a href="/{{.Blog.BlogId}}/{{.Article.Id}}/edit/">編集</a>]
+            </h1>
+            <div class="meta">
+                <span>作成日：{{.Article.CreatedAt}}</span>
+            </div>
+            <p class="content">{{.Article.Body}}</p>
+        </section>
+    </article>
+</div>
+<style>
+    .board {
+        width: 800px;
+        margin: 0 auto 0;
+    }
+    .board section {
+        border: 1px solid #333; margin: 10px;
+        border-radius: 30px;
+        padding: 10px 100px;
+        background-color: #eee;
+    }
+    .board section img {
+        border-radius: 50px;
+    }
+
+    .board section .meta {
+        text-align: right;
+    }
+    .board section .content {
+        margin: 10px 0px;
+    }
+
+</style>

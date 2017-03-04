@@ -1,0 +1,17 @@
+<div class="col-md-offset-4 col-md-4">
+
+    <form class="form-signin" role="form" method="POST" action="/{{.BlogId}}/login/{{.ArticleId}}" onsubmit="DisableButton();">
+        <h2 class="form-signin-heading">ログイン</h2>
+        {{if .IsError}}
+            <div class="alert alert-danger">{{.Message}}</div>
+        {{end}}
+
+        ID
+        <input name="blog_id" type="text" class="form-control" value="{{.BlogId}}" readonly>
+        パスワード
+        <input name="password" type="password" class="form-control" placeholder="Password" required>
+
+        <br>
+        <button id="submitbutton" class="btn btn-lg btn-warning btn-block" type="submit">ログイン</button>
+    </form>
+</div>

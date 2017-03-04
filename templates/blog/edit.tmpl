@@ -1,0 +1,16 @@
+<section class="col-md-offset-4 col-md-4">
+    <form action="./{{.Article.Id}}" method="POST" class="form-signin" role="form">
+        <h2 class="form-signin-heading">記事投稿・編集</h2>
+        <label>タイトル</label>
+        <input type="text" name="subject" placeholder="この記事のテーマ" value="{{.Article.Subject}}" class="form-control" required>
+        <label>記事本文</label>
+        <textarea name="body" placeholder="この記事の詳細" class="form-control" rows="10" required>{{.Article.Body}}</textarea>
+        <br>
+        <button class="btn btn-lg btn-warning btn-block" type="submit">送信</button>
+    </form>
+</section>
+<style>
+    label {
+        margin: 10px 0;
+    }
+</style>
