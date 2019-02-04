@@ -1,19 +1,19 @@
 ＃StackEditへようこそ！
 
-こんにちは！私は** StackEdit **の最初のMarkdownファイルです。あなたがStackEditについて学びたいのなら、あなたは私を読むことができます。もしあなたがMarkdownで遊びたいのなら、あなたは私を編集することができます。私の作業が終わったら、ナビゲーションバーの左隅にある**ファイルエクスプローラ**を開いて新しいファイルを作成できます。
+私は** StackEdit **の最初のMarkdownファイルです。あなたがStackEditについて学びたいのなら、あなたは私を読んでということです。またあなたはMarkdownで遊びたいのですが、私は編集私の仕事です終わったら、ナビゲーションバーの左隅にある**ファイルエクスプロラ**を開いて新しいファイルを作成できます。
 
 
 ＃ファイル
 
-StackEditはあなたのファイルをあなたのブラウザに保存します。つまり、あなたのすべてのファイルは自動的にローカルに保存され、**オフラインでアクセス可能になります。**
+StackEditはあなたのファイルをあなたのブラウザに保存します。まとめ、あなたのすべてのファイルは自動的にローカルに保存され、**オフラインでアクセス可能になります。**
 
 ## ファイルとフォルダを作成する
 
-ファイルエクスプローラには、ナビゲーションバーの左隅にあるボタンを使用してアクセスできます。ファイルエクスプローラの** New file **ボタンをクリックして新しいファイルを作成できます。** New folder **ボタンをクリックしてフォルダを作成することもできます。
+ファイルエクスプローラには、ナビゲーションバーの左隅にあるボタンを使用してアクセスできます。ファイルエクスプローラの**新しいファイル**ボタンをクリックして新しいファイルを作成できます。**新しいフォルダ**ボタンをクリックフォルダを作成することもできます。
 
-## 他のファイルに切り替える
+## 他のファイルに切り替え
 
-すべてのファイルはファイルエクスプローラに表示されています。リスト内のファイルをクリックすると、別のものに切り替えることができます。
+すべてのファイルはファイルエクスプロラに表示されています。リスト内のファイルをクリックすると、別のものに切り替えすることができます。
 
 ## ファイル名を変更する
 
@@ -21,14 +21,14 @@ StackEditはあなたのファイルをあなたのブラウザに保存しま�
 
 ## ファイルを削除する
 
-You can delete the current file by clicking the **Remove** button in the file explorer. The file will be moved into the **Trash** folder and automatically deleted after 7 days of inactivity.
+ファイルは** Trash **フォルダに移動さ​​れ、7日間操作がないと自動的に削除されます。ファイルエクスプロラの**削除**ボタンをクリックしてください。
 
-## Export a file
+## ファイルをエキスパートする
 
-You can export the current file by clicking **Export to disk** in the menu. You can choose to export the file as plain Markdown, as HTML using a Handlebars template or as a PDF.
+現在のファイルをエクスポートするには、メニューの**ディスクにエクスポート**をクリックします。ファイルをプレーンな値下げとして、ハンドルバーテンプレートを使用したHTMLとして、またはPDFとしてエクスポートすることを選択できます。
 
 
-# Synchronization
+＃同期
 
 Synchronization is one of the biggest features of StackEdit. It enables you to synchronize any file in your workspace with other files stored in your **Google Drive**, your **Dropbox** and your **GitHub** accounts. This allows you to keep writing on other devices, collaborate with people you share the file with, integrate easily into your workflow... The synchronization mechanism takes place every minute in the background, downloading, merging, and uploading file modifications.
 
@@ -120,27 +120,27 @@ $$
 
 You can render UML diagrams using [Mermaid](https://mermaidjs.github.io/). For example, this will produce a sequence diagram:
 
-`` `マーメイド
-sequenceDiagram 
-アリス -  >> Bob：こんにちはBob、お元気ですか？
-ボブ -  >>ジョン：ジョンはどうですか？
-Bob  -  x Alice：ありがとうございます。
-Bob-x John：ありがとうございます。
-Johnの右記：Bobは長い<br/>長い時間を考えているので、テキストは1行に収まりません。ボブ - >アリス：ジョンと確認しています…アリス - > ジョン：はい…ジョン、お元気ですか？`` `
+` `  `マーメイド
+シーケンス図
+アリス- >>ボブ：こんにちはボブ、お元気ですか？
+ボブ- >>ジョン：ジョンはどうですか？
+ボブ-アリス×：ありがとうございます
+。ボブ-Xジョン：ありがとうございます
+ジョンの右記：ボブは長い<br/>長い時間を考えているので、テキストは1行に収まりません。ボブ - >アリス：ジョンと確認しています…アリス - >ジョン：はい…ジョン、お元気ですか？` ` `
 
 
 
 
 
-そしてこれはフローチャートを作成します：
+それはこれはフローチャートを作成します：
 
-`` `人魚
-グラフLR 
-A [四角]  - リンクテキスト - > B（（丸））
-A  - > C（丸四角形）
-B  - > D {菱形} 
-C  - > D` ``
+` `  `人魚
+ブログラフLR 
+A [四角] -リンクテキスト- > B（（丸））
+A - > C（丸四角形）
+B - > D {菱形} 
+C - > D `  ` `
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk1NzQ3MDg0MF19
+eyJoaXN0b3J5IjpbLTU1MDgwOThdfQ==
 -->
