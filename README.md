@@ -1,7 +1,10 @@
-# martini-demo Blog
+＃martini-demoブログ
 
-This is martini demo.
+これはマティーニのデモです。
 
 
-## Getting Started
-goose up
+## はじめに
+ガチョウ
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbLTUyNzI4NTI1Nl19
+-->
